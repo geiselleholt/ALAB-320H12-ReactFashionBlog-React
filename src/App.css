@@ -1,37 +1,12 @@
-header h1 {
-  color: tomato;
-  font-size: 4rem;
-}
 
 body {
-  border-left: 5px solid lightgray;
+  border-left: 5px solid gray;
   min-height: 100vh;
   font-family: sans-serif;
   max-width: 1000px;
   padding: 1rem 2rem;
-}
-
-header {
-  padding: 1rem 2rem;
-}
-
-main {
-  padding: 1rem 2rem;
-}
-
-main h2 {
-  font-size: 3rem;
-}
-
-main time {
-  font-size: 2rem;
-  color: lightgray;
-}
-
-main h4 {
-  color: tomato;
-  font-weight: bold;
-  text-align: right;
+  background-color: white;
+  color: black;
 }
 
 footer {
@@ -39,36 +14,20 @@ footer {
   color: tomato;
 }
 
-img {
-  width: 100%;
-}
-
-ul {
-  padding: 0;
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-}
-
-header a {
-  color: lightgray;
-}
-
 footer a {
   color: tomato;
 }
 
 footer h3 {
-  color: lightgray;
+  color: gray;
 }
 
-article {
-  margin-bottom: 4rem;
-  border-bottom: 1px solid lightgray;
-  padding-bottom: 2rem;
+footer ul {
+  display: flex;
+  justify-content: space-between;
 }
 
 article p::first-letter {
-  color: lightgray;
+  color: gray;
   font-size: 5rem;
 }
